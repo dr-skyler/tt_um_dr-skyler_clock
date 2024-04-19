@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Clock clocks
+Generates a 1 second pulse that increments a seconds, minutes, and hours timer that then gets decoded and displayed on the 7-segment display
 
 ## How to test
 
-Connect 7-segment display
+Connect 7-segment display and adjust imput switches to desired clock frequency 
 
 ## External hardware
 
