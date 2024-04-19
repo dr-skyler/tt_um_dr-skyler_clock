@@ -64,7 +64,10 @@ module tt_um_dr_skyler_clock (
     input  wire       clk,      // clock
     input  wire       rst_n     // reset_n - low to reset
 );
-    
+   assign uio_out = 8'b0;
+   assign uio_oe = 8'b0;
+   
+   
     // Synchronize.
     logic [9:0] inputs_ff, inputs_sync;
     always @(posedge clk) begin
