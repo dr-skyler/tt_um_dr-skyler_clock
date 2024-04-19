@@ -20,24 +20,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
+  ui[0]: "Clock 10 MHz"
+  ui[1]: "Clock 12 MHz"
+  ui[2]: "Clock 14 MHz"
+  ui[3]: "Clock 20 MHz"
+  ui[4]: "Show Minuetes"
+  ui[5]: "Show Hours"
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "7-seg[0]"
+  uo[1]: "7-seg[1]"
+  uo[2]: "7-seg[2]"
+  uo[3]: "7-seg[3]"
+  uo[4]: "7-seg[4]"
+  uo[5]: "7-seg[5]"
+  uo[6]: "7-seg[6]"
+  uo[7]: "7-seg[7]"
 
   # Bidirectional pins
   uio[0]: ""
